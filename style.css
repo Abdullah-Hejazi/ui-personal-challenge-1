@@ -158,6 +158,7 @@ body {
 }
 
 .services-input {
+    background-color: white;
     display: flex;
     border-radius: 50px;
     width: 150px;
@@ -195,6 +196,7 @@ body {
 }
 
 .services-rectangle {
+    background-color: white;
     width: 150px;
     height: 150px;
     box-shadow: 0px 2px 10px 0px #989aad4b;
@@ -211,4 +213,22 @@ body {
 
 .services-rectangle-icon {
     font-size: 40px !important;
+}
+
+.services-path {
+    position: absolute;
+    top: 600px;
+    z-index: -1;
+}
+
+.services-path1 {
+    fill: #346ae4;
+}
+
+.services-path2 {
+    fill: #3974e8;
+}
+
+.services-path3 {
+    fill: #4788ff;
 }
